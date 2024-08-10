@@ -5,8 +5,8 @@
   "main": "server.js",
   "scripts": {
     "server": "nodemon backend/server.js",
-    "start":"node server.js",
-    "build":"npm install && npm install -- prefix frontend && npm run build --prefix frontend"
+    "start": "node server.js",
+    "build": "npm install && npm install -- prefix frontend && npm run build --prefix frontend"
   },
   "engines": {
     "node": ">=14.20.1"
@@ -24,6 +24,7 @@
     "express": "^4.19.2",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.3.4",
+    "sass": "^1.77.8",
     "socket.io": "^4.7.5",
     "zustand": "^4.5.2"
   },
